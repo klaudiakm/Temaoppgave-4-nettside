@@ -1,16 +1,48 @@
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  padding: 3rem;
-  gap: 20px;
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,600&family=Silkscreen:wght@400;700&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 3rem;
+  gap: 20px;
+} 
+
 .flex-container img {
-    width: 12rem;
-    height: 12rem;
-    display: block;
+    width: 14rem;
+    height: 14rem;
     border-radius: 0%;
     margin-left: 1rem;
     margin-right: 1rem;
+
+}
+.flex-container{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 20px;
+    background: transparent;
+    height: 100%;
+
+}
+
+.flex-produkt div {
+    display: block;
+    margin: 0 0 0 1rem;
+    max-width: 224px;
+}
+
+.flex-produkt {
+    max-width: 224px;
+}
+
+.produkt__designer {
+    font-weight: bold;
+    overflow-wrap: break-word;
 }
