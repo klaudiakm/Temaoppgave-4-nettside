@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 3rem;
+  gap: 20px;
+}
+
+.flex-container img {
+    width: 12rem;
+    height: 12rem;
+    display: block;
+    border-radius: 0%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
