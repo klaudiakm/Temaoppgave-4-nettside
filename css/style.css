@@ -1,5 +1,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,600&family=Silkscreen:wght@400;700&display=swap');
 
+.skip-to {
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: #FFFFFF;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transform: translateY(-100px);
+}
+
+.skip-to:focus{
+    transform: translateY(0px);
+    
+}
+
 body{
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
