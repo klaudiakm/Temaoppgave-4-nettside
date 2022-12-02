@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,600&family=Silkscreen:wght@400;700&display=swap');
 
+html{
+    font-size: 16px;
+}
+
+
 .skip-to {
     padding: 10px;
     background-color: darkolivegreen;
@@ -65,12 +70,6 @@ body{
 .produkt__designer {
     font-weight: bold;
     overflow-wrap: break-word;
-<<<<<<< HEAD
-    text-overflow: ellipsis;
-    width: 224px;
-    display: block;
-}
-=======
 }
 
 .scroll-instagram{
@@ -81,4 +80,3 @@ body{
     height: 100%;
     border-radius: 15px;
 }
->>>>>>> 9bafaf301037bceede7c7a8ed7bef23bc7373945
