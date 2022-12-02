@@ -55,3 +55,21 @@ body{
     height: 100%;
     border-radius: 15px;
 }
+
+footer {
+    min-height: 10rem;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.social-logo {
+    margin: 0 0 0 auto;
+}
+
+.social-logo img {
+    margin: 0 0 0 1rem;
+}
