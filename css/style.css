@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,600&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,600&family=Silkscreen:wght@400;700&display=swap');
 
 .skip-to {
     padding: 10px;
@@ -49,15 +49,23 @@ body{
 
 .flex-produkt div {
     display: block;
-    margin: 0 0 0 1rem;
     max-width: 224px;
+    height: auto;
+}
+
+.flex-produkt img {
+    margin: 0;;
 }
 
 .flex-produkt {
     max-width: 224px;
+    padding: 0;
 }
 
 .produkt__designer {
     font-weight: bold;
     overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    width: 224px;
+    display: block;
 }
