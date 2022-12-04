@@ -73,3 +73,47 @@ footer {
 .social-logo img {
     margin: 0 0 0 1rem;
 }
+
+
+.syveren{
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.syveren img{
+    height: auto;
+    width: 65%;
+}
+
+.syveren-text{
+    width: 400px;
+    padding-right: 80px;
+    text-align: right;
+    line-height: 150%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.syveren-text h1{
+    color:#7B806D ;
+    font-size: 55px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.syveren-text h3{
+    font-size: 22px;
+}
+.syveren-text p{
+    font-size: 22px;
+}
+
+.syveren-text a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
