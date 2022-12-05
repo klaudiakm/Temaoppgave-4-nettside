@@ -82,10 +82,10 @@ h3{
 .scroll-instagram{
     overflow: auto;
     white-space: nowrap;
-    padding: 5px 70px 5px 20px;
+    padding: 5px 0px 5px 0px;
     background: transparent;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 footer {
