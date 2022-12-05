@@ -23,6 +23,7 @@ html{
 body{
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
 
 }
 
@@ -34,6 +35,10 @@ body{
   padding: 3rem;
   gap: 2rem;
 } 
+
+h3{
+    padding-left: 30px;
+}
 
 .flex-container img {
     width: 14rem;
@@ -81,4 +86,66 @@ body{
     background: transparent;
     height: 100%;
     border-radius: 15px;
+}
+
+footer {
+    min-height: 10rem;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.social-logo {
+    margin: 0 0 0 auto;
+}
+
+.social-logo img {
+    margin: 0 0 0 1rem;
+}
+
+
+.syveren{
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.syveren img{
+    height: auto;
+    width: 65%;
+}
+
+.syveren-text{
+    width: 400px;
+    padding-right: 80px;
+    text-align: right;
+    line-height: 150%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.syveren-text h1{
+    color:#7B806D ;
+    font-size: 55px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.syveren-text h3{
+    font-size: 22px;
+}
+.syveren-text p{
+    font-size: 22px;
+}
+
+.syveren-text a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
