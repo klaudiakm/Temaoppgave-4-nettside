@@ -3,6 +3,7 @@
 body{
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
 
 }
 
@@ -14,6 +15,10 @@ body{
   padding: 3rem;
   gap: 20px;
 } 
+
+h3{
+    padding-left: 30px;
+}
 
 .flex-container img {
     width: 14rem;
