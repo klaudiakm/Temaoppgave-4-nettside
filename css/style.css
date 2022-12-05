@@ -27,6 +27,40 @@ body{
 
 }
 
+.nav-container-right {
+    padding-top: 27px;
+}
+
+.nav-title{
+    text-decoration: none;
+    color: #111111;
+    margin-right: 8px;
+}
+
+.nav-title:hover{
+    color: #7B806D;
+}
+
+.img-nav-right{
+    margin-top: -4px;
+}
+
+.herobanner{
+    width: 100%;
+    margin: 16px auto 0px auto;
+
+}
+
+.nav-flex {
+    display: flex;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #111111;
+}
+
 .flex-container {
   display: flex;
   flex-wrap:nowrap;
