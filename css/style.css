@@ -37,7 +37,11 @@ body{
 } 
 
 h3{
-    padding-left: 30px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .flex-container img {
@@ -104,6 +108,11 @@ footer {
 
 .social-logo img {
     margin: 0 0 0 1rem;
+}
+
+/* Denne styrer linjene! */
+hr{
+    border-top: 2px solid black;
 }
 
 
