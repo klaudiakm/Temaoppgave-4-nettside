@@ -77,6 +77,11 @@ h3{
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .flex-container img {
