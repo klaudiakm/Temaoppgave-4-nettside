@@ -185,7 +185,9 @@ a:hover {
 
 footer {
     min-height: 10rem;
+    margin-bottom: 80px;
 }
+
 
 .footer-flex {
     display: flex;
