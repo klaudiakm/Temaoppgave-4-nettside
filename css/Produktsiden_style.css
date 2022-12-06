@@ -251,32 +251,46 @@ hr{
     flex-direction: column;
 }
 
-.syveren img{
+.syveren .hovedbilde{
     height: auto;
     width: 100%;
 }
 
+.syveren .tilstand{
+    height: auto;
+    width: 80vw;
+}
+
+#diagram{
+    width: 80%;
+}
+
 @media screen and (min-width: 840px) {
-    .syveren img{
-        width: 45%;
+    .syveren .hovedbilde{
+        max-width: 50%;
+    }
+    .syveren .tilstand{
+        height: auto;
+        width: 80%;
+    }
+    #diagram{
+        width: 50%;
     }
 }
 
 .syveren-text{
     width: 100%;
-   /*  padding-right: 80px; */
     text-align: left;
     line-height: 150%;
+    display: flex;
+    flex-direction: column;
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 840px) {
     .syveren-text{
-        width: 400px;  
-        text-align: right;
-        padding-left: 30px;
+        width: 50%;
     }
 }
-
 
 .main{
     width: 100%;
@@ -290,6 +304,7 @@ hr{
     font-size: 55px;
     margin-bottom: 0px;
     font-weight: bold;
+    line-height: 80%;
 }
 .syveren-text h3{
     font-size: 22px;
@@ -305,16 +320,10 @@ hr{
     color: black;
 }
 
-.arne{
-    margin-top: 20px;
+.storrelse{
+    width: 200px;
+    line-height: 150%;
 }
-
-@media screen and (min-width: 1350px) {
-    .arne{
-    transform: translate(0px, -12px);
-}
-}
-
 
 /**/
 .categories {
