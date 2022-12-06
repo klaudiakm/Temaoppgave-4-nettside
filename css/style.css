@@ -29,7 +29,7 @@ body{
 }
 
 @media screen and (min-width: 840px) {
-    .body{
+    body{
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -101,6 +101,11 @@ body{
     position: sticky;
     top: 0;
     background-color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .flex-nav .logo-container img {
@@ -184,19 +189,40 @@ a:hover {
 }
 
 footer {
-    min-height: 10rem;
+/*     min-height: 10rem; */
     margin-bottom: 80px;
 }
+
+@media screen and (min-width: 840px) {
+    footer {
+        min-height: 10rem;
+    }
+}/*  */
 
 
 .footer-flex {
     display: flex;
-    align-items: flex-end;
     gap: 1rem;
+    flex-flow: column nowrap;
 }
 
 .social-logo {
-    margin: 0 0 0 auto;
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+@media screen and (min-width: 840px) {
+    .footer-flex {
+        align-items: flex-end;
+        gap: 1rem;
+        flex-flow: row nowrap;
+    }
+    .social-logo {
+        margin: 0 0 0 auto;
+    }
 }
 
 .social-logo img {
@@ -243,6 +269,7 @@ hr{
         padding-left: 30px;
     }
 }
+
 
 .main{
     width: 100%;
