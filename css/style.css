@@ -23,9 +23,16 @@ html{
 body{
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+@media screen and (min-width: 840px) {
+    .body{
     padding-left: 50px;
     padding-right: 50px;
-
+}
 }
 
 .nav-container-right {
@@ -40,6 +47,37 @@ body{
 
 .nav-title:hover{
     color: #7B806D;
+}
+
+.desktop-menu {
+    display: none;
+}
+
+@media screen and (min-width: 840px) {
+    .desktop-menu {
+        display: block;
+    } 
+}
+
+.mobile-menu {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color:white;
+    height: 35px;
+    padding: 1rem;
+    width: 100vw;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 840px) {
+    .mobile-menu {
+        display: none;
+    } 
 }
 
 .img-nav-right{
@@ -59,7 +97,20 @@ body{
 .flex-nav{
     display: flex;
     justify-content: space-between;
-    /* border-bottom: 2px solid #111111; */
+    border-bottom: 3px solid #111111;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.flex-nav .logo-container img {
+    width: 12rem;
+}
+
+@media screen and (min-width: 840px) {
+    .flex-nav .logo-container img {
+        width: 26rem;
+    }
 }
 
 .flex-container {
@@ -170,7 +221,7 @@ hr{
     width: 100%;
 }
 
-@media screen and (min-width: 948px) {
+@media screen and (min-width: 840px) {
     .syveren img{
         width: 65%;
     }
@@ -183,7 +234,7 @@ hr{
     line-height: 150%;
 }
 
-@media screen and (min-width: 1228px) {
+@media screen and (min-width: 1350px) {
     .syveren-text{
         width: 400px;  
         text-align: right;
@@ -219,5 +270,11 @@ hr{
 }
 
 .arne{
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1350px) {
+    .arne{
     transform: translate(0px, -12px);
+}
 }
