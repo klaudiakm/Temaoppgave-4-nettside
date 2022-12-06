@@ -20,6 +20,12 @@ html{
     
 }
 
+.max-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 body{
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
@@ -99,6 +105,7 @@ body{
     justify-content: space-between;
     border-bottom: 3px solid #111111;
     position: sticky;
+    z-index: 20;
     top: 0;
     background-color: white;
 }
@@ -245,16 +252,15 @@ hr{
 }
 
 .syveren img{
-    max-width: 200px;
-/*     height: auto;
-    max-width: 20%; */
+    height: auto;
+    width: 100%;
 }
 
-/* @media screen and (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .syveren img{
-        width: 65%;
+        width: 45%;
     }
-} */
+}
 
 .syveren-text{
     width: 100%;
@@ -307,4 +313,48 @@ hr{
     .arne{
     transform: translate(0px, -12px);
 }
+}
+
+
+/**/
+.categories {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: relative;
+}
+
+@media screen and (min-width: 840px) {
+    .categories {
+        justify-content: space-between;
+    }
+}
+
+.categories__card {
+    max-width: 466px;
+    position: relative;
+}
+
+.categories__card img {
+    width: 100%;
+}
+
+.categories__card-alpha {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.categories__card h4 {
+    position: absolute;
+    top: 28%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
 }
