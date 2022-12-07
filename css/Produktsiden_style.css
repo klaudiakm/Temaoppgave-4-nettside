@@ -20,6 +20,12 @@ html{
     
 }
 
+.max-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 body{
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
@@ -99,6 +105,7 @@ body{
     justify-content: space-between;
     border-bottom: 3px solid #111111;
     position: sticky;
+    z-index: 20;
     top: 0;
     background-color: white;
 }
@@ -244,33 +251,46 @@ hr{
     flex-direction: column;
 }
 
-.syveren img{
-    max-width: 200px;
-/*     height: auto;
-    max-width: 20%; */
+.syveren .hovedbilde{
+    height: auto;
+    width: 100%;
 }
 
-/* @media screen and (min-width: 840px) {
-    .syveren img{
-        width: 65%;
+.syveren .tilstand{
+    height: auto;
+    width: 80vw;
+}
+
+#diagram{
+    width: 80%;
+}
+
+@media screen and (min-width: 840px) {
+    .syveren .hovedbilde{
+        max-width: 50%;
     }
-} */
+    .syveren .tilstand{
+        height: auto;
+        width: 80%;
+    }
+    #diagram{
+        width: 50%;
+    }
+}
 
 .syveren-text{
     width: 100%;
-   /*  padding-right: 80px; */
     text-align: left;
     line-height: 150%;
+    display: flex;
+    flex-direction: column;
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 840px) {
     .syveren-text{
-        width: 400px;  
-        text-align: right;
-        padding-left: 30px;
+        width: 50%;
     }
 }
-
 
 .main{
     width: 100%;
@@ -284,6 +304,7 @@ hr{
     font-size: 55px;
     margin-bottom: 0px;
     font-weight: bold;
+    line-height: 80%;
 }
 .syveren-text h3{
     font-size: 22px;
@@ -299,12 +320,50 @@ hr{
     color: black;
 }
 
-.arne{
-    margin-top: 20px;
+.storrelse{
+    width: 200px;
+    line-height: 150%;
 }
 
-@media screen and (min-width: 1350px) {
-    .arne{
-    transform: translate(0px, -12px);
+/**/
+.categories {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: relative;
 }
+
+@media screen and (min-width: 840px) {
+    .categories {
+        justify-content: space-between;
+    }
+}
+
+.categories__card {
+    max-width: 466px;
+    position: relative;
+}
+
+.categories__card img {
+    width: 100%;
+}
+
+.categories__card-alpha {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.categories__card h4 {
+    position: absolute;
+    top: 28%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
 }
