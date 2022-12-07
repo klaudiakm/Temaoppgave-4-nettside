@@ -244,6 +244,10 @@ hr{
 }
 
 
+.tilbakeknapp{
+    padding-top: 10px;
+    font-size: 20px;
+}
 .syveren{
     display: flex;
     width: 100%;
@@ -252,12 +256,11 @@ hr{
 }
 
 .syveren .hovedbilde{
-    height: auto;
+ /*    height: auto; */
     width: 100%;
 }
 
 .syveren .tilstand{
-    height: auto;
     width: 80vw;
 }
 
@@ -323,6 +326,20 @@ hr{
 .storrelse{
     width: 200px;
     line-height: 150%;
+}
+
+.addtocart{
+    display: block;
+    border-radius: 100px;
+    border: none;
+    font-size: 22px;
+    position: relative;
+    background-color:#7B806D ;
+    color: white;
+    height: 2em;
+    width: 8em;
+    cursor: pointer;
+
 }
 
 /**/
